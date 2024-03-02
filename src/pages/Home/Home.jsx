@@ -67,7 +67,7 @@ export default function Home({ }) {
                     </section>
                     <article className="w-screen h-screen bg-gradient-to-b from-black to-woodsmoke-10 flex justify-evenly items-center flex-col mb-12 md:w-max" id="contacto">
                         <SubHeading children={"CONTACTAME PARA QUE TU"} br={"NEGOCIO DESPEGUE"} alingText={"text-center"} />
-                        <img src="/public/images/imgForm.png" alt="image-form" className="w-96 h-96" />
+                        <img src="/images/imgForm.png" alt="image-form" className="w-96 h-96" />
                         <div className=" w-screen h-max flex flex-row gap-8 justify-center items-center">
                             <img src="/mail.svg" alt="" className="w-8 h-8 hover:scale-150 transition-all duration-30 md:w-12 md:h-12" />
                             <img src="/instagram.svg" alt="" className="w-8 h-8 hover:scale-150 transition-all duration-300 md:w-12 md:h-12" />
