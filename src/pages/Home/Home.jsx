@@ -10,11 +10,11 @@ export default function Home({ }) {
         { type: "video", src: "https://www.youtube.com/embed/N4o2YZLsDaA?si=P66zN_ffCT5aPjTt"},
     ]
     const mediaImg = [
-        { type: "image", src: "/public/images/imagen-1.jpg" },
-        { type: "image", src: "/public/images/imagen-2.jpg" },
-        { type: "image", src: "/public/images/imagen-3.jpg" },
-        { type: "image", src: "/public/images/imagen-4.jpg" },
-        { type: "image", src: "/public/images/imagen-5.jpg" },
+        { type: "image", src: "/images/imagen-1.jpg" },
+        { type: "image", src: "/images/imagen-2.jpg" },
+        { type: "image", src: "/images/imagen-3.jpg" },
+        { type: "image", src: "/images/imagen-4.jpg" },
+        { type: "image", src: "/images/imagen-5.jpg" },
     ]
     return (
         <>
@@ -28,10 +28,6 @@ export default function Home({ }) {
                         <a href="#miniaturas" className="text-woodsmoke-50 text-2xl hover:scale-125 hover:text-lightning-yellow-400 transition-all duration-300 lg2:text-xl">MINIATURAS</a>
                         <a href="#contacto" className="text-woodsmoke-50 text-2xl hover:scale-125 hover:text-lightning-yellow-400 transition-all duration-300 lg2:text-xl">CONTACTA CONMIGO</a>
                     </div>
-
-                    {/* <video controls className="hidden xl:block h-max w-full mt-4 lg2:p-4" src="/public/video-presentacion/video-franco-puleo.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video> */}
 
                     <iframe
                         src="https://www.youtube-nocookie.com/embed/ahKCkuztqDc?si=zTVNTu6HHLs0Os_V"
@@ -73,9 +69,9 @@ export default function Home({ }) {
                         <SubHeading children={"CONTACTAME PARA QUE TU"} br={"NEGOCIO DESPEGUE"} alingText={"text-center"} />
                         <img src="/public/images/imgForm.png" alt="image-form" className="w-96 h-96" />
                         <div className=" w-screen h-max flex flex-row gap-8 justify-center items-center">
-                            <img src="/public/mail.svg" alt="" className="w-8 h-8 hover:scale-150 transition-all duration-30 md:w-12 md:h-12" />
-                            <img src="/public/instagram.svg" alt="" className="w-8 h-8 hover:scale-150 transition-all duration-300 md:w-12 md:h-12" />
-                            <img src="/public/x.svg" alt="" className="w-8 h-8 hover:scale-150 transition-all duration-300 md:w-12 md:h-12" />
+                            <img src="/mail.svg" alt="" className="w-8 h-8 hover:scale-150 transition-all duration-30 md:w-12 md:h-12" />
+                            <img src="/instagram.svg" alt="" className="w-8 h-8 hover:scale-150 transition-all duration-300 md:w-12 md:h-12" />
+                            <img src="/x.svg" alt="" className="w-8 h-8 hover:scale-150 transition-all duration-300 md:w-12 md:h-12" />
                         </div>
                     </article>
                 </main>

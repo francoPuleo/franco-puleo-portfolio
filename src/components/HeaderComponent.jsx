@@ -11,15 +11,15 @@ export default function HeaderComponent() {
                 <Paragraph color={"text-woodsmoke-50"} children={"Ayudo a escalar la facturacion de tu negocio a traves del contenido organico"} textAling={"text-center"} />
                 <div className="flex justify-center items-center w-full">
                     <div className="flex flex-row justify-between items-center w-32 md:w-80">
-                        <img src="/public/idea.svg" alt="Imagen" className="md:w-16 md:h-16 xl:w-12 xl:h-12 md:border-b-2 md:p-2 md:border-lightning-yellow-400 lg2:scale-75" />
-                        <img src="/public/clock.svg" alt="Imagen" className="md:w-16 md:h-16 xl:w-12 xl:h-12 md:border-t-2 md:p-2 md:border-lightning-yellow-400 lg2:scale-75" />
-                        <img src="/public/feather.svg" alt="Imagen" className="md:w-16 md:h-16 xl:w-12 xl:h-12 md:border-b-2 md:p-2 md:border-lightning-yellow-400 lg2:scale-75" />
-                        <img src="/public/notebooks.svg" alt="Imagen" className="md:w-16 md:h-16 xl:w-12 xl:h-12 md:border-t-2 md:p-2 md:border-lightning-yellow-400 lg2:scale-75" />
-                        <img src="/public/speakerphone.svg" alt="Imagen" className="md:w-16 md:h-16 xl:w-12 xl:h-12 md:border-b-2 md:p-2 md:border-lightning-yellow-400 lg2:scale-75" />
+                        <img src="/idea.svg" alt="Imagen" className="md:w-16 md:h-16 xl:w-12 xl:h-12 md:border-b-2 md:p-2 md:border-lightning-yellow-400 lg2:scale-75" />
+                        <img src="/clock.svg" alt="Imagen" className="md:w-16 md:h-16 xl:w-12 xl:h-12 md:border-t-2 md:p-2 md:border-lightning-yellow-400 lg2:scale-75" />
+                        <img src="/feather.svg" alt="Imagen" className="md:w-16 md:h-16 xl:w-12 xl:h-12 md:border-b-2 md:p-2 md:border-lightning-yellow-400 lg2:scale-75" />
+                        <img src="/notebooks.svg" alt="Imagen" className="md:w-16 md:h-16 xl:w-12 xl:h-12 md:border-t-2 md:p-2 md:border-lightning-yellow-400 lg2:scale-75" />
+                        <img src="/speakerphone.svg" alt="Imagen" className="md:w-16 md:h-16 xl:w-12 xl:h-12 md:border-b-2 md:p-2 md:border-lightning-yellow-400 lg2:scale-75" />
                     </div>
                 </div>
                 <SubHeading children={`"Transformo ideas en contenido cautivador que conecta con audiencias y genera impacto."`} alingText={"text-center"} />
-                <img src="/public/image-franco/kzo_logo.png" alt="" className="w-34 hidden scale-75 xl:w-48 xl:scale-150 xl:block lg2:w-44" />
+                <img src="/image-franco/kzo_logo.png" alt="" className="w-34 hidden scale-75 xl:w-48 xl:scale-150 xl:block lg2:w-44" />
                 <iframe
                     src="https://www.youtube-nocookie.com/embed/ahKCkuztqDc?si=zTVNTu6HHLs0Os_V"
                     title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
