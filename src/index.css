@@ -22,6 +22,9 @@ body{
 main{
   overflow-x: hidden;
 }
+header{
+  overflow-x: hidden;
+}
 /* styles.css */
 .linear-wipe {
     background: linear-gradient(to left, #eccf3e 20%, #e9d149 40%, #eee645 50%, #f0de7d 60%, #efb810 80%);
