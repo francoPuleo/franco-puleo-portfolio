@@ -4,18 +4,18 @@ import HeaderComponent from "../../components/HeaderComponent"
 
 export default function Home({ }) {
 
-     function redirec (rut)  {
+    function redirec(rut) {
         window.location.href = rut;
     }
 
-        const handleClick = () => {
-          window.open('mailto:francopuleo83@gmail.com');
-        };
-    
+    const handleClick = () => {
+        window.open('mailto:francopuleo83@gmail.com');
+    };
+
     const media = [
         { type: "video", src: "https://www.youtube.com/embed/h4YXbip7lu8?si=oq2UqeX3RlauwMtU" },
         { type: "video", src: "https://www.youtube.com/embed/FZ7CO9uNetA?si=x3isqjupMPjSDq77" },
-        { type: "video", src: "https://www.youtube.com/embed/N4o2YZLsDaA?si=P66zN_ffCT5aPjTt"},
+        { type: "video", src: "https://www.youtube.com/embed/N4o2YZLsDaA?si=P66zN_ffCT5aPjTt" },
     ]
     const mediaImg = [
         { type: "image", src: "/images/imagen-1.jpg" },
@@ -37,11 +37,13 @@ export default function Home({ }) {
                         <a href="#contacto" className="text-woodsmoke-50 text-2xl hover:scale-125 hover:text-lightning-yellow-400 transition-all duration-300 lg2:text-xl">CONTACTA CONMIGO</a>
                     </div>
 
-                    <iframe
-                        src="https://www.youtube-nocookie.com/embed/ahKCkuztqDc?si=zTVNTu6HHLs0Os_V"
-                        title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        className="hidden xl:block w-full xl:h-128 mt-2 z-50 2xl:h-130">
-                    </iframe>
+                    <div className="hidden xl:block w-full xl:h-128 mt-2 z-50 2xl:h-130 2xl:flex 2xl:justify-center 2xl:items-center">
+                        <iframe
+                            src="https://www.youtube-nocookie.com/embed/ahKCkuztqDc?si=zTVNTu6HHLs0Os_V"
+                            title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            className="hidden xl:block w-full xl:h-128 mt-2 z-50 2xl:w-full 2xl:h-130">
+                        </iframe>
+                    </div>
 
                     <SubHeading children={"Algunos de mis trabajos"} alingText={"text-center"} colors={"text-woodsmoke-100"} bg={"bg-black xl:hidden"} />
                     <section className="flex flex-col justify-evenly gap-12 items-center xl:w-full xl:mt-28">
@@ -51,13 +53,13 @@ export default function Home({ }) {
                             <article className="flex flex-row gap-4 justify-center items-center md:gap-12">
                                 {media.map((item, index) => (
                                     <iframe
-                                    key={index}
-                                    src={item.src}
-                                    title="YouTube video player"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    className="h-44 md:h-82 xl:h-82 w-24 md:w-48  shadow-uniform shadow-lightning-yellow-200 border">
-                                </iframe>
+                                        key={index}
+                                        src={item.src}
+                                        title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        className="h-44 md:h-82 xl:h-82 w-24 md:w-48  shadow-uniform shadow-lightning-yellow-200 border">
+                                    </iframe>
                                 ))}
                             </article>
                         </article>
@@ -74,9 +76,9 @@ export default function Home({ }) {
                         <SubHeading children={"CONTACTAME PARA QUE TU"} br={"NEGOCIO DESPEGUE"} alingText={"text-center"} />
                         <img src="/images/imgForm.png" alt="image-form" className="w-96 h-96" />
                         <div className=" w-screen h-max flex flex-row gap-8 justify-center items-center">
-                            <img src="/mail.svg" alt="" className="w-8 h-8 hover:scale-150 transition-all duration-30 md:w-12 md:h-12" onClick={handleClick}/>
-                            <img src="/instagram.svg" alt="" className="w-8 h-8 hover:scale-150 transition-all duration-300 md:w-12 md:h-12" onClick={()=> redirec("https://www.instagram.com/kzo.editor/")}/>
-                            <img src="/x.svg" alt="" className="w-8 h-8 hover:scale-150 transition-all duration-300 md:w-12 md:h-12" onClick={()=> redirec("https://twitter.com/Kzo_Edits")}/>
+                            <img src="/mail.svg" alt="" className="w-8 h-8 hover:scale-150 transition-all duration-30 md:w-12 md:h-12" onClick={handleClick} />
+                            <img src="/instagram.svg" alt="" className="w-8 h-8 hover:scale-150 transition-all duration-300 md:w-12 md:h-12" onClick={() => redirec("https://www.instagram.com/kzo.editor/")} />
+                            <img src="/x.svg" alt="" className="w-8 h-8 hover:scale-150 transition-all duration-300 md:w-12 md:h-12" onClick={() => redirec("https://twitter.com/Kzo_Edits")} />
                         </div>
                     </article>
                 </main>
