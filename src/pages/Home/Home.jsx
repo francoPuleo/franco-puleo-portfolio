@@ -50,7 +50,7 @@ export default function Home({ }) {
                         <article className="w-screen max-w-max bg-black  xl:w-full xl:h-max xl:mb-16 2xl:h-max" id="rell">
                             <SubHeading mb={"xl:pb-2"} children={"REELS"} colors={"text-woodsmoke-100"} alingText={"text-center"} shadow={"drop-shadow-2xl shadow-woodsmoke-200"} />
                             {/* <Carousel media={media} /> */}
-                            <article className="flex flex-row gap-4 justify-center items-center md:gap-12">
+                            <article className="flex flex-row gap-4 justify-center items-center md:gap-12 2xl:gap-40">
                                 {media.map((item, index) => (
                                     <iframe
                                         key={index}
@@ -58,16 +58,16 @@ export default function Home({ }) {
                                         title="YouTube video player"
                                         frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                        className="h-44 md:h-82 xl:h-82 w-24 md:w-48  shadow-uniform shadow-lightning-yellow-200 border">
+                                        className="h-44 md:h-82 xl:h-82 w-24 md:w-48 2xl:w-64 2xl:h-128  shadow-uniform shadow-lightning-yellow-200 border">
                                     </iframe>
                                 ))}
                             </article>
                         </article>
                         <article className="w-screen max-w-max bg-black xl:w-full xl:h-screen lg2:h-150vh xl:overflow-y-hidden xl:flex xl:flex-col xl:justify-center xl:items-center 2xl:h-max" id="miniaturas">
                             <SubHeading mb={"xl:pb-0"} children={"PORTADAS"} colors={"text-woodsmoke-100"} alingText={"text-center"} shadow={"drop-shadow-2xl shadow-woodsmoke-200"} />
-                            <article className="flex flex-row flex-wrap gap-4 justify-center items-center md:gap-8 xl:gap-14 lg2:gap-18 lg2:p-8 2xl:h-max">
+                            <article className="flex flex-row flex-wrap gap-4 justify-center items-center md:gap-8 xl:gap-14 lg2:gap-18 lg2:p-8 2xl:h-max 2xl:gap-48">
                                 {mediaImg.map((item, index) => (
-                                    <img key={index} controls className="h-max w-24 md:w-44  shadow-uniform shadow-lightning-yellow-200 border " src={item.src} type="video/mp4" />
+                                    <img key={index} controls className="h-max w-24 md:w-44 2xl:w-72 2xl:h-128 shadow-uniform shadow-lightning-yellow-200 border " src={item.src} type="video/mp4" />
                                 ))}
                             </article>
                         </article>
