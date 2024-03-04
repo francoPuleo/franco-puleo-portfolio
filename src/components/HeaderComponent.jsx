@@ -7,7 +7,7 @@ export default function HeaderComponent() {
     return (
         <>
             <header className="w-full h-max xl:w-1/3 xl:overflow-hidden xl:h-screen xl:z-50 xl:border-r xl:border-lightning-yellow-300 xl:flex xl:flex-col xl:justify-evenly xl:items-center xl:fixed xl:right-0">
-                <HeadingPrimary children={"Content Manager-cambio"} textAlign={"text-center"} />
+                <HeadingPrimary children={"Content Manager"} textAlign={"text-center"} />
                 <Paragraph color={"text-woodsmoke-50"} children={"Ayudo a escalar la facturacion de tu negocio a traves del contenido organico"} textAling={"text-center"} />
                 <div className="flex justify-center items-center w-full">
                     <div className="flex flex-row justify-between items-center w-32 md:w-80">

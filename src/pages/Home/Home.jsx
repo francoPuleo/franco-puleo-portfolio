@@ -65,7 +65,7 @@ export default function Home({ }) {
                         </article>
                         <article className="w-screen max-w-max bg-black xl:w-full xl:h-screen lg2:h-150vh xl:overflow-y-hidden xl:flex xl:flex-col xl:justify-center xl:items-center 2xl:h-max" id="miniaturas">
                             <SubHeading mb={"xl:pb-0"} children={"PORTADAS"} colors={"text-woodsmoke-100"} alingText={"text-center"} shadow={"drop-shadow-2xl shadow-woodsmoke-200"} />
-                            <article className="flex flex-row flex-wrap gap-4 justify-center items-center md:gap-8 xl:gap-14 lg2:gap-18 lg2:p-8 2xl:h-max 2xl:gap-32">
+                            <article className="flex flex-row flex-wrap gap-4 justify-center items-center md:gap-8 xl:gap-14 lg2:gap-18 lg2:p-8 2xl:h-max 2xl:gap-52">
                                 {mediaImg.map((item, index) => (
                                     <img key={index} controls className="h-max w-24 md:w-44 shadow-uniform shadow-lightning-yellow-200 border " src={item.src} type="video/mp4" />
                                 ))}
