@@ -38,7 +38,7 @@ export default function Home({ }) {
                     </div>
 
                         <iframe
-                            src="https://www.youtube-nocookie.com/embed/ahKCkuztqDc?si=zTVNTu6HHLs0Os_V"
+                            src="https://www.youtube.com/embed/ahKCkuztqDc?si=4o2_yMwlmVPAEnrT"
                             title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             className="hidden xl:block w-full xl:h-128 mt-2 z-50 2xl:w-full 2xl:h-130">
                         </iframe>
