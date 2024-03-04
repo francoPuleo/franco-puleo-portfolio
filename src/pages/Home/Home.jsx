@@ -4,6 +4,14 @@ import HeaderComponent from "../../components/HeaderComponent"
 
 export default function Home({ }) {
 
+     function redirec (rut)  {
+        window.location.href = rut;
+    }
+
+        const handleClick = () => {
+          window.open('mailto:francopuleo83@gmail.com');
+        };
+    
     const media = [
         { type: "video", src: "https://www.youtube.com/embed/h4YXbip7lu8?si=oq2UqeX3RlauwMtU" },
         { type: "video", src: "https://www.youtube.com/embed/FZ7CO9uNetA?si=x3isqjupMPjSDq77" },
@@ -69,9 +77,9 @@ export default function Home({ }) {
                         <SubHeading children={"CONTACTAME PARA QUE TU"} br={"NEGOCIO DESPEGUE"} alingText={"text-center"} />
                         <img src="/images/imgForm.png" alt="image-form" className="w-96 h-96" />
                         <div className=" w-screen h-max flex flex-row gap-8 justify-center items-center">
-                            <img src="/mail.svg" alt="" className="w-8 h-8 hover:scale-150 transition-all duration-30 md:w-12 md:h-12" />
-                            <img src="/instagram.svg" alt="" className="w-8 h-8 hover:scale-150 transition-all duration-300 md:w-12 md:h-12" />
-                            <img src="/x.svg" alt="" className="w-8 h-8 hover:scale-150 transition-all duration-300 md:w-12 md:h-12" />
+                            <img src="/mail.svg" alt="" className="w-8 h-8 hover:scale-150 transition-all duration-30 md:w-12 md:h-12" onClick={handleClick}/>
+                            <img src="/instagram.svg" alt="" className="w-8 h-8 hover:scale-150 transition-all duration-300 md:w-12 md:h-12" onClick={()=> redirec("https://www.instagram.com/kzo.editor/")}/>
+                            <img src="/x.svg" alt="" className="w-8 h-8 hover:scale-150 transition-all duration-300 md:w-12 md:h-12" onClick={()=> redirec("https://twitter.com/Kzo_Edits")}/>
                         </div>
                     </article>
                 </main>
