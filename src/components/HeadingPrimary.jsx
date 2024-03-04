@@ -10,6 +10,6 @@ export default function HeadingPrimary({ children, colors, textAlign }) {
   }
 
   return (
-    <h1 className={`${classText} text-4xl font-bold ${textAlign} py-6 md:text-5xl lg:py-10 px-4 md:px-14 md:py-8 lg:px-8 xl:py-4 lg2:text-3xl`}>{children}</h1>
+    <h1 className={`${classText} text-4xl font-bold ${textAlign} py-6 md:text-5xl lg:py-10 px-4 md:px-14 md:py-8 lg:px-8 xl:py-4 lg2:text-3xl 2xl:text-4xl`}>{children}</h1>
   );
 }

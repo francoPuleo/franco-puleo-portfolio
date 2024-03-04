@@ -11,6 +11,6 @@ export default function SubHeading({ children, colors, alingText, bg, br, br2, s
   }
 
   return (
-    <h2 className={`${classText} text-2xl md:text-xl lg:text-2xl font-semibold ${alingText} ${bg} pt-8 pb-1 md:py-6 lg:py-8 px-4 md:px-6 ${mb} md:text-4xl lg:px-8 lg2:text-xl ${shadow}`}>{children} <br /> {br} <br /> {br2} </h2>
+    <h2 className={`${classText} text-2xl md:text-xl lg:text-2xl font-semibold ${alingText} ${bg} pt-8 pb-1 md:py-6 lg:py-8 px-4 md:px-6 ${mb} md:text-4xl lg:px-8 lg2:text-xl 2xl:text-3xl ${shadow}`}>{children} <br /> {br} <br /> {br2} </h2>
   );
 }
