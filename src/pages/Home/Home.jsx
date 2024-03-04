@@ -40,19 +40,16 @@ export default function Home({ }) {
                     <iframe
                         src="https://www.youtube-nocookie.com/embed/ahKCkuztqDc?si=zTVNTu6HHLs0Os_V"
                         title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        className="hidden xl:block w-full xl:h-128 mt-2 z-50">
+                        className="hidden xl:block w-full xl:h-128 mt-2 z-50 2xl:h-130">
                     </iframe>
 
                     <SubHeading children={"Algunos de mis trabajos"} alingText={"text-center"} colors={"text-woodsmoke-100"} bg={"bg-black xl:hidden"} />
                     <section className="flex flex-col justify-evenly gap-12 items-center xl:w-full xl:mt-28">
-                        <article className="w-screen max-w-max bg-black  xl:w-full xl:h-max xl:mb-16" id="rell">
+                        <article className="w-screen max-w-max bg-black  xl:w-full xl:h-max xl:mb-16 2xl:h-max" id="rell">
                             <SubHeading mb={"xl:pb-2"} children={"REELS"} colors={"text-woodsmoke-100"} alingText={"text-center"} shadow={"drop-shadow-2xl shadow-woodsmoke-200"} />
                             {/* <Carousel media={media} /> */}
                             <article className="flex flex-row gap-4 justify-center items-center md:gap-12">
                                 {media.map((item, index) => (
-                                    // <video key={index} controls className="h-max w-24 md:w-48  shadow-uniform shadow-lightning-yellow-200 border " src={item.src} type="video/mp4">
-                                    //     Your browser does not support the video tag.
-                                    // </video>
                                     <iframe
                                     key={index}
                                     src={item.src}
@@ -64,9 +61,9 @@ export default function Home({ }) {
                                 ))}
                             </article>
                         </article>
-                        <article className="w-screen max-w-max bg-black xl:w-full xl:h-screen lg2:h-150vh xl:overflow-y-hidden xl:flex xl:flex-col xl:justify-center xl:items-center" id="miniaturas">
+                        <article className="w-screen max-w-max bg-black xl:w-full xl:h-screen lg2:h-150vh xl:overflow-y-hidden xl:flex xl:flex-col xl:justify-center xl:items-center 2xl:h-max" id="miniaturas">
                             <SubHeading mb={"xl:pb-0"} children={"PORTADAS"} colors={"text-woodsmoke-100"} alingText={"text-center"} shadow={"drop-shadow-2xl shadow-woodsmoke-200"} />
-                            <article className="flex flex-row flex-wrap gap-4 justify-center items-center md:gap-8 xl:gap-14 lg2:gap-18 lg2:p-8">
+                            <article className="flex flex-row flex-wrap gap-4 justify-center items-center md:gap-8 xl:gap-14 lg2:gap-18 lg2:p-8 2xl:h-max">
                                 {mediaImg.map((item, index) => (
                                     <img key={index} controls className="h-max w-24 md:w-44  shadow-uniform shadow-lightning-yellow-200 border " src={item.src} type="video/mp4" />
                                 ))}
