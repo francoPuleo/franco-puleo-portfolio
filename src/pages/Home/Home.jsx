@@ -37,11 +37,13 @@ export default function Home({ }) {
                         <a href="#contacto" className="text-woodsmoke-50 text-2xl hover:scale-125 hover:text-lightning-yellow-400 transition-all duration-300 lg2:text-xl">CONTACTA CONMIGO</a>
                     </div>
 
+                    <div className="hidden xl:block w-full xl:h-128 mt-2 z-50 2xl:w-full 2xl:h-screen 2xl:mt-24">
                         <iframe
                             src="https://www.youtube.com/embed/ahKCkuztqDc?si=4o2_yMwlmVPAEnrT"
                             title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            className="hidden xl:block w-full xl:h-128 mt-2 z-50 2xl:w-full 2xl:h-screen">
+                            className="hidden xl:block w-full xl:h-128 mt-2 z-50 2xl:w-full 2xl:h-4/5">
                         </iframe>
+                    </div>
 
                     <SubHeading children={"Algunos de mis trabajos"} alingText={"text-center"} colors={"text-woodsmoke-100"} bg={"bg-black xl:hidden"} />
                     <section className="flex flex-col justify-evenly gap-12 items-center xl:w-full xl:mt-28">
