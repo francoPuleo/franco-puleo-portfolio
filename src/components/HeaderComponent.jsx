@@ -21,7 +21,7 @@ export default function HeaderComponent() {
                 <SubHeading children={`"Transformo ideas en contenido cautivador que conecta con audiencias y genera impacto."`} alingText={"text-center"} />
                 <img src="/image-franco/kzo_logo.png" alt="" className="w-34 hidden scale-75 xl:w-48 xl:scale-150 xl:block lg2:w-44" />
                 <iframe
-                    src="https://www.youtube-nocookie.com/embed/ahKCkuztqDc?si=zTVNTu6HHLs0Os_V"
+                    src="https://www.youtube.com/embed/F_7ti8fAOO4?si=MHdwd0Mhi4YCY2Ll"
                     title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     className="w-full h-60 md:h-96 md:mb-14 md:mt-4 xl:hidden">
                 </iframe>
